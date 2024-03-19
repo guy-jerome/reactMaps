@@ -1,9 +1,10 @@
-import { useState } from "react";
-
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+import React from "react";
+import MapComponent from "./components/MapComponent";
+export default function App() {
+  return (
+    <div>
+      {" "}
+      <MapComponent />{" "}
+    </div>
+  );
 }
-
-export default App;
